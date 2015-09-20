@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>coca cola can</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<!-- begin template -->
+<div class="navbar navbar-custom navbar-fixed-top">
+ <div class="navbar-header"><a class="navbar-brand" href="#">FoodShip</a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <!--
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li>&nbsp;</li>
+      </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a></li>
+                <li><a href="#">Category 5</a></li> 
+              </ul>
+            </div>
+            <input type="text" class="form-control" placeholder="What are searching for?">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+          </div>
+        </div>
+      </form>
+    </div>
+    -->
+</div>
+
+<div id="map-canvas"></div>
+<div class="container-fluid" id="main">
+  <div class="row">
+    <input type="text" id="search" placeholder="Find a place!">
+    <div class="col-xs-9"><!--map-canvas will be postioned here--></div>
+  	<div class="col-xs-3" id="right">
+    
+      <h2 id="panel-title">FoodShip</h2>
+      <hr>
+      
+      <!-- item list -->
+      <div class="panel panel-default">
+        <div class="panel-heading" id="item1">Our Motive</div>
+      </div>
+      <p id="par1">Everyday, millions of people all across the globe struggle with hunger. Meanwhile, thousands of pounds of leftover food go to waste everyday. Our goal is to use the advances of modern technology to bring food to those who need it.</p>
+      
+      <hr>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading" id="item2">What We Do</div>
+      </div>
+      <p id="par2">In order to combat hunger, we've developed a streamlined solution to help restaurants quickly and easily transport their leftovers to nearby homeless shelters in the area. Restaurant managers need only to take quick photos of any leftover food. Our app will then use cutting edge techniques in computer vision to recognize the food before automatically requesting delivery via Postmates. Once the delivery begins, customers can track where the food is in real time on our website.</p>
+      
+      <hr>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading" id="item3">The Next Steps</div>
+      </div>
+      <p id="par3">We'd love to continue development of our app beyond this hackathon. Our long term goals include establishing a nonprofit organization and expanding our impact via grants and public funding.</p>
+      
+      <hr>
+
+      <div id="credits">
+        <p id="cred1">Created at HackMIT 2015</p>
+        <p id="cred2"></p>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+<!-- end template -->
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed&libraries=places"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
